@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delhi - My Favorite City</title>
+    <style>
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, ol, li, table, form, address {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a background color and text color for the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the header */
+header {
+    background-image: url('https://static.theprint.in/wp-content/uploads/2022/08/ezgif.com-gif-maker_12.gif'); /* Replace with your header background image */
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+    padding: 300px 0;
+}
+
+header h1 {
+    font-size: 36px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* Style the navigation menu */
+nav ul {
+    list-style-type: none;
+    text-align: center;
+    background-color: #333;
+    padding: 15px 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ff9800; /* Change the color on hover */
+}
+
+/* Style the sections */
+section {
+    padding: 20px;
+    background-color: #fff;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Style images */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* Style tables */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+
+/* Style the form */
+form label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+form input[type="text"],
+form input[type="number"],
+form input[type="email"],
+form select,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+form input[type="submit"] {
+    background-color: #ff9800;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Style quotes */
+#quotes p {
+    text-align: center;
+    font-style: italic;
+    margin-top: 20px;
+}
+
+/* Style the contact section */
+address {
+    font-style: italic;
+    margin-top: 10px;
+}
+
+/* Style the footer */
+footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+/* Add a hover effect for footer links */
+footer a {
+    text-decoration: none;
+    color: #ff9800;
+    transition: color 0.3s;
+}
+
+footer a:hover {
+    color: #fff;
+}
+
+   </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Delhi</h1>
+        <p>Discover the Heart of India</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#city-description">City Description</a></li>
+            <li><a href="#attractions">Attractions</a></li>
+            <li><a href="#city-statistics">City Statistics</a></li>
+            <li><a href="#citizen-feedback">Citizen Feedback</a></li>
+            <li><a href="#quotes">Quotes from Citizens</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="city-description">
+        <h2>About Delhi</h2>
+        <img src="https://deih43ym53wif.cloudfront.net/Rajpath-delhi-shutterstock_1195751923.jpg_7647e1aad2.jpg" alt="Delhi Skyline">
+        <p>Delhi, the capital city of India, is known for its rich history, diverse culture, and vibrant atmosphere. It is a city that seamlessly blends the old and the new, offering a unique experience to its visitors.</p>
+    </section>
+
+    <hr>
+
+    <section id="attractions">
+        <h2>Attractions</h2>
+        <h3>Main Attractions</h3>
+        <ul>
+            <li>Qutub Minar</li>
+            <li>India Gate</li>
+            <li>Red Fort</li>
+        </ul>
+        <h3>Local Favorites</h3>
+        <ol>
+            <li>Lajpat Nagar Market</li>
+            <li>Dilli Haat</li>
+            <li>Lotus Temple</li>
+        </ol>
+    </section>
+
+    <hr>
+
+    <section id="city-statistics">
+        <h2>City Statistics</h2>
+        <table>
+            <tr>
+                <th>Population</th>
+                <th>Area</th>
+            </tr>
+            <tr>
+                <td>20 million</td>
+                <td>1,484 square kilometers</td>
+            </tr>
+        </table>
+    </section>
+
+    <hr>
+
+    <section id="citizen-feedback">
+        <h2>Citizen Feedback</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br>
+
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="age" required><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br>
+
+            <label for="rating">Rating:</label>
+            <select id="rating" name="rating">
+                <option value="excellent">Excellent</option>
+                <option value="good">Good</option>
+                <option value="average">Average</option>
+                <option value="poor">Poor</option>
+            </select><br>
+
+            <label for="feedback">Feedback:</label><br>
+            <textarea id="feedback" name="feedback" rows="4" cols="50" required></textarea><br>
+
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+
+    <hr>
+
+    <section id="quotes">
+        <h2>Quotes from Citizens</h2>
+        <p><span>"Delhi is a city that never sleeps, and its energy is infectious."</span> - John Doe</p>
+        <p><span>"I fell in love with the historical charm of Delhi."</span> - Jane Smith</p>
+    </section>
+
+    <hr>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <address>
+            <p>Delhi Tourism Office</p>
+            <p><a href="tel:+91-XXXXXXXXXX">Phone: +91-XXXXXXXXXX</a></p>
+            <p><a href="mailto:#">Email: info@xxxxxxx.com</a></p>
+        </address>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Delhi Tourism. All rights reserved.</p>
+    </footer>
+</body>
+</html>
